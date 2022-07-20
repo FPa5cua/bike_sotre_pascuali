@@ -1,9 +1,14 @@
-import { RiShoppingCartLine } from 'react-icons/fa';
+import { RiShoppingCartLine } from "react-icons/ri"
+import { RiArrowDownSLine } from "react-icons/ri"
+// import CartContent  from './components/CartContent'
 
-const cartWidget = () =>{
-    return (
-        <RiShoppingCartLine />
-    );
-};
+const CartWidget = () =>{
+        return (
+            <div>
+            <button><RiShoppingCartLine /></button> 
+            <button><RiArrowDownSLine /></button>
+            </div>
+        );
+    }
 
-export default cartWidget
+export default CartWidget;
