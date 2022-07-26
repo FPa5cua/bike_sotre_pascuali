@@ -1,16 +1,18 @@
+// import './NavBarcss.css'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import CartWidget from './CartWidget'
-// import bikeStoreLogo from '../img'
+// import bikeStoreLogo from '../img/bikeStoreLogo.svg'
 
 const NavBar = () => {
+  console.log('soy el NavBar, me renderice')
     return(
         <Navbar bg="light" variant="light">
         <Container>
         <Navbar.Brand href="#home">
-        {/*<img src = { bikeStoreLogo } /> */}
+        {/* <img src = { bikeStoreLogo } /> */}
             BikeStore
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
